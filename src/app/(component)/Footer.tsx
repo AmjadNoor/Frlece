@@ -147,7 +147,7 @@ const Footer = () => {
                     "Software Development",
                     "Database Management",
                   ].map((items) => (
-                    <li>
+                    <li key={items}>
                       <a
                         href="#"
                         className="text-gray-700 transition hover:opacity-75"
@@ -171,7 +171,7 @@ const Footer = () => {
                     "Cybersecurity",
                     "Cloud Services",
                   ].map((items) => (
-                    <li>
+                    <li key={items}>
                       <a
                         href="#"
                         className="text-gray-700 transition hover:opacity-75"
@@ -195,7 +195,7 @@ const Footer = () => {
                     "Administrative Services",
                     "Customer Support",
                   ].map((items) => (
-                    <li>
+                    <li key={items}>
                       <a
                         href="#"
                         className="text-gray-700 transition hover:opacity-75"
@@ -217,7 +217,7 @@ const Footer = () => {
                     "Clients Post",
                     "Freelancers",
                   ].map((service) => (
-                    <li>
+                    <li key={service}>
                       <a
                         href="#"
                         className="text-gray-700 transition hover:opacity-75"
