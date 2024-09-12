@@ -8,7 +8,7 @@ const textFont = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
-const HomeScreen = () => {
+const Hero = () => {
   return (
     <div className="flex items-center justify-center flex-col bg-gradient-to-r from-blue-500 to-purple-600   shadow-lg w-screen md:w-[100%] h-screen md:h-[100%] md:py-10 ">
       <div className="flex items-center justify-center flex-col text-white">
@@ -30,10 +30,10 @@ const HomeScreen = () => {
           today or list your skills.
         </div>
         <div className="flex gap-4 sm:gap-10 md:gap-20 items-center justify-center">
-          <button className="mt-6 py-2 px-4 rounded text-md font-normal bg-indigo-800/80 text-white hover:bg-indigo-400">
+          <button className="mt-6 py-3 px-4 rounded-full text-md font-normal bg-indigo-800/80 text-white hover:bg-indigo-400">
             <Link href="/sign-up">Join as Freelancer</Link>
           </button>
-          <button className="mt-6 py-2 px-4 rounded text-md font-normal bg-indigo-800/80 text-white hover:bg-indigo-400">
+          <button className="mt-6 py-3 px-4 text-md font-normal bg-indigo-800/80 text-white hover:bg-indigo-400 rounded-full">
             <Link href="/hire-talent">Hire Top Talent</Link>
           </button>
         </div>
@@ -42,4 +42,4 @@ const HomeScreen = () => {
   );
 };
 
-export default HomeScreen;
+export default Hero;
