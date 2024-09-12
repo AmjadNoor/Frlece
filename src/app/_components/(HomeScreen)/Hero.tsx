@@ -30,10 +30,10 @@ const Hero = () => {
           today or list your skills.
         </div>
         <div className="flex gap-4 sm:gap-10 md:gap-20 items-center justify-center">
-          <button className="mt-6 py-3 px-4 rounded-full text-md font-normal bg-indigo-800/80 text-white hover:bg-indigo-400">
+          <button className="mt-6 py-3 px-5 rounded-full text-md font-normal bg-indigo-800/80 text-white hover:bg-indigo-400">
             <Link href="/sign-up">Join as Freelancer</Link>
           </button>
-          <button className="mt-6 py-3 px-4 text-md font-normal bg-indigo-800/80 text-white hover:bg-indigo-400 rounded-full">
+          <button className="mt-6 py-3 px-5 text-md font-normal bg-indigo-800/80 text-white hover:bg-indigo-400 rounded-full">
             <Link href="/hire-talent">Hire Top Talent</Link>
           </button>
         </div>

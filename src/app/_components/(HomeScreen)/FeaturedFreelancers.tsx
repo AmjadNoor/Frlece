@@ -6,7 +6,8 @@ const FeaturedFreelancers = () => {
     {
       name: "Abhishek Kumar",
       role: "Full-Stack Developer",
-      achievements: "React, Node.js Expert | Delivered 50+ Websites",
+      achievements:
+        "Next.js, Node.js , springBoot , AI/ML Expert | Delivered 50+ Websites",
       photo: "https://i.postimg.cc/7hVw6Ms2/profile.png", // Random image
       city: "Bangalore",
       country: "India",
@@ -47,7 +48,7 @@ const FeaturedFreelancers = () => {
   ];
 
   return (
-    <div className="px-4 py-12 bg-gray-50">
+    <div className="px-4 py-12 bg-blue-200">
       <div className="text-2xl font-bold text-blue-800 mb-4 text-center">
         Our Top Freelancers Deliver Quality Every Time!
       </div>
