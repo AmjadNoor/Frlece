@@ -1,8 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
-import React from "react";
-import { IoLogoYoutube } from "react-icons/io";
-
 const Footer = () => {
   return (
     <footer className="absolute bottom-3 bg-blue-600 w-full">
