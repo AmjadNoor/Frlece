@@ -1,3 +1,9 @@
+import HomeScreen from "./(component)/HomeScreen";
+
 export default function Home() {
-  return <div>abhishe</div>;
+  return (
+    <div>
+      <HomeScreen />
+    </div>
+  );
 }
